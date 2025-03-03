@@ -53,5 +53,6 @@ The project is organized into three main components: frontend, backend, and netw
 - Implement advanced AI for non-player characters.
 - Enhance graphics and animations for a more immersive experience.
 
-## License
-This project is licensed under the MIT License.
+![image](https://github.com/user-attachments/assets/94053771-e9c2-45f7-9ac5-5c8c8a1a0a58)
+
+
