@@ -1,0 +1,23 @@
+{
+  "name": "multiplayer-fps-arena",
+  "version": "1.0.0",
+  "description": "A multiplayer first-person shooter arena game built with Three.js and Python.",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "three": "^0.137.5",
+    "babel-core": "^6.26.3",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
