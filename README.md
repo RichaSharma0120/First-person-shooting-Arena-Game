@@ -42,11 +42,29 @@ The project is organized into three main components: frontend, backend, and netw
   - `websocket_client.py`: Implements WebSocket client logic.
 
 ## Setup Instructions
-1. Clone the repository.
-2. Navigate to the `frontend` directory and install dependencies using npm.
-3. Navigate to the `backend` directory and install required Python packages listed in `requirements.txt`.
-4. Start the backend server.
-5. Open the `index.html` file in a web browser to play the game.
+  1. Clone the repository.
+   
+## Install the dependencies
+
+  ### Front end
+  cd multiplayer-fps-arena/frontend
+  npm install
+  
+  ## Backend
+  cd ../backend
+  python -m venv venv
+  venv\Scripts\activate
+  pip install -r requirements.txt
+
+# Start the game
+
+1. Start the backend server: 
+    cd ../backend
+    python src/server.py
+
+2. Start the frontend development server:
+    cd ../frontend
+    npm start
 
 ## Future Enhancements
 - Add more game modes and maps.
